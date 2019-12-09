@@ -2,7 +2,7 @@ package com.github.sigureruri.customsidebar
 
 import org.bukkit.plugin.java.JavaPlugin
 
-class CustomSideBar : JavaPlugin() {
+class CustomSidebar : JavaPlugin() {
 
     // PLUGIN startup logic
     override fun onEnable() {

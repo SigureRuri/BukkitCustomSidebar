@@ -8,7 +8,7 @@ import org.bukkit.scheduler.BukkitRunnable
 import org.bukkit.scoreboard.DisplaySlot
 
 /**
- * ScoreboardSidebarを利用し、PlayerにSideBarを表示する。
+ * ScoreboardSidebarを利用し、PlayerにSidebarを表示する。
  * 仮想エンティティの表示名を利用するため、仮想エンティティのScoreを変更するような使用法は想定していない。
  * PlayerのScoreboardをMainScoreboardから変更するため、他のスコアボードを使用するシステムと競合する恐れがある。
  *

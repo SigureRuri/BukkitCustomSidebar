@@ -1,4 +1,4 @@
-# CustomSideBar
+# CustomSidebar
 仮想エンティティを使用したScoreboardSidebarをプレイヤーに表示が可能です。  
 時間経過によるTitleの変更や、 Sidebarの更新が可能です。
 

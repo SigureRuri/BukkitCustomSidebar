@@ -1,5 +1,5 @@
-name: CustomSideBar
+name: CustomSidebar
 version: @version@
-main: com.github.sigureruri.customsidebar.CustomSideBar
+main: com.github.sigureruri.customsidebar.CustomSidebar
 api-version: 1.13
 authors: [SigureRuri]
