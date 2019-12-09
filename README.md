@@ -19,32 +19,28 @@ public class SampleSidebarJava extends Sidebar {
     @NotNull
     @Override
     public List<Pair<String, Integer>> getTitle(@NotNull Player player) {
-        return new ArrayList<>(
-                Arrays.asList(
-                        new Pair<>("§b§lSample", 5),
-                        new Pair<>("§3§lSample", 5),
-                        new Pair<>("§b§lSample", 5),
-                        new Pair<>("§3§lSample", 5),
-                        new Pair<>("§b§lS§3§lample", 1),
-                        new Pair<>("§3§lS§b§la§3§lmple", 1),
-                        new Pair<>("§3§lSa§b§lm§3§lple", 1),
-                        new Pair<>("§3§lSam§b§lp§3§lle", 1),
-                        new Pair<>("§3§lSamp§b§ll§3§le", 1)
-                )
+        return Arrays.asList(
+                new Pair<>("§b§lSample", 5),
+                new Pair<>("§3§lSample", 5),
+                new Pair<>("§b§lSample", 5),
+                new Pair<>("§3§lSample", 5),
+                new Pair<>("§b§lS§3§lample", 1),
+                new Pair<>("§3§lS§b§la§3§lmple", 1),
+                new Pair<>("§3§lSa§b§lm§3§lple", 1),
+                new Pair<>("§3§lSam§b§lp§3§lle", 1),
+                new Pair<>("§3§lSamp§b§ll§3§le", 1)
         );
     }
 
     @NotNull
     @Override
     public List<Pair<String, Integer>> getContents(@NotNull Player player) {
-        return new ArrayList<>(
-                Arrays.asList(
-                        new Pair<>(" ", 15),
-                        new Pair<>("§c§lHealth§f: §c§l" + Math.round(player.getHealth()) + "§7/§c§l" + Math.round(player.getHealthScale()), 14),
-                        new Pair<>("  ", 13),
-                        new Pair<>("§6§lOnline Players§f: §e§l" + Bukkit.getOnlinePlayers().size(), 12),
-                        new Pair<>("   ", 11)
-                )
+        return Arrays.asList(
+                new Pair<>(" ", 15),
+                new Pair<>("§c§lHealth§f: §c§l" + Math.round(player.getHealth()) + "§7/§c§l" + Math.round(player.getHealthScale()), 14),
+                new Pair<>("  ", 13),
+                new Pair<>("§6§lOnline Players§f: §e§l" + Bukkit.getOnlinePlayers().size(), 12),
+                new Pair<>("   ", 11)
         );
     }
 }
